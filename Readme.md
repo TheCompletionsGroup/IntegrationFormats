@@ -23,7 +23,7 @@ When quotation marks are required inside a field then they must be escaped using
 
 ##Dates and Times
 
-All dates and times must be in UTC and must be formatted in accordance with ISO 8601 extended format.
+All dates and times must be in UTC and must be formatted in accordance with [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) extended format.
 
 **Examples**
 
