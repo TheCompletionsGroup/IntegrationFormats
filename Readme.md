@@ -57,7 +57,7 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
  - TagId: GUID
  - SubSystemId: GUID
  
- ##Deficiencies
+##Deficiencies
   - Id: GUID
   - Name: string
   - Description: string
@@ -71,32 +71,32 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
   
   Only one of {TagId, SystemId, SubSystemId} needs to be filled out for a deficiency. Use an empty GUID 00000000-0000-0000-0000-000000000000 for fields which are not filled in. 
   
- ##Checksheets
+##Checksheets
    - Id: GUID
    - Number: string
    - Name: string
    - Discipline: string
    - Phase: string
    
- ##Work Assignments
+##Work Assignments
    - Id: GUID
    - ChecksheetId: GUID
    - TagId: GUID
   
- ##Completed Work Assignments
+##Completed Work Assignments
     - Id: GUID
     - CompletionDate: Date
     - EntryDate: Date
     - CompletingPerson: string
   
- ##Certificates
+##Certificates
    - Id: GUID
    - Number: string
    - Name: string
    - Discipline: string
    - Phase: string
   
- ##Completed Certificates
+##Completed Certificates
     - Id: GUID
     - CompletionDate: Date
     - EntryDate: Date
