@@ -84,10 +84,10 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
    - TagId: GUID
   
 ##Completed Work Assignments
-    - Id: GUID
-    - CompletionDate: Date
-    - EntryDate: Date
-    - CompletingPerson: string
+   - Id: GUID
+   - CompletionDate: Date
+   - EntryDate: Date
+   - CompletingPerson: string
   
 ##Certificates
    - Id: GUID
@@ -97,7 +97,7 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
    - Phase: string
   
 ##Completed Certificates
-    - Id: GUID
-    - CompletionDate: Date
-    - EntryDate: Date
-    - CompletingPerson: string
+   - Id: GUID
+   - CompletionDate: Date
+   - EntryDate: Date
+   - CompletingPerson: string
