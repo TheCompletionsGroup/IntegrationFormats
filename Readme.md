@@ -32,7 +32,10 @@ All dates and times must be in UTC and must be formatted in accordance with ISO 
 
 #File Formats
 
+Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_unique_identifier) and must remain consistent from load to load. Thus a tag with ID 21EC2020-3AEA-4069-A2DD-08002B30309D should always have that ID and any item imported with that ID will be assumed to be that tag. 
+
 ##Tags
+ - Id: GUID
  - Tag Number: string
  - Description: string
  - CreationDate: date
@@ -40,7 +43,61 @@ All dates and times must be in UTC and must be formatted in accordance with ISO 
  - Discipline: string
 
 ##Systems
+ - Id: GUID
+ - Number: string
+ - Name: string
 
 ##SubSystems
+ - Id: GUID
+ - Number: string
+ - Name: string
 
-##Tag Scoping
+##Tag Scopings
+ - Id: GUID
+ - TagId: GUID
+ - SubSystemId: GUID
+ 
+ ##Deficiencies
+  - Id: GUID
+  - Name: string
+  - Description: string
+  - TagId: GUID
+  - SystemId: GUID
+  - SubSystemId: GUID
+  - ContractorResponsible: String
+  - CreationDate: GUID
+  - ExpectedCompletionDate: Date
+  - ActualCompletionDate: Date
+  
+  Only one of {TagId, SystemId, SubSystemId} needs to be filled out for a deficiency. Use an empty GUID 00000000-0000-0000-0000-000000000000 for fields which are not filled in. 
+  
+ ##Checksheets
+   - Id: GUID
+   - Number: string
+   - Name: string
+   - Discipline: string
+   - Phase: string
+   
+ ##Work Assignments
+   - Id: GUID
+   - ChecksheetId: GUID
+   - TagId: GUID
+  
+ ##Completed Work Assignments
+    - Id: GUID
+    - CompletionDate: Date
+    - EntryDate: Date
+    - CompletingPerson: string
+  
+ ##Certificates
+   - Id: GUID
+   - Number: string
+   - Name: string
+   - Discipline: string
+   - Phase: string
+  
+ ##Completed Certificates
+    - Id: GUID
+    - CompletionDate: Date
+    - EntryDate: Date
+    - CompletingPerson: string
