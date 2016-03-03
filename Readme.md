@@ -1,8 +1,8 @@
-**The Completions Tool** is able to import progress data from existing completions projects. This allows you to view overall progress of a large project which relies on numerous other completions tools or gain an overview of multiple projects. In order to do this we have described a common format for the various entities common to most completions tools. If you maintain a completions tool then we invite you to implement this standard or, better yet, contribute to it. We love open source formats. 
+**The Completions Tool** is able to import completions data from existing completions projects. This allows you to view overall progress of a large project which relies on numerous other completions tools or gain an overview of multiple projects. In order to do this we have described a common format for the various entities common to most completions tools. If you maintain a completions tool then we invite you to implement this standard or, better yet, contribute to it. We love open source formats. 
 
 #General Format Notes
 
-Even though it is 2016 we're resisting the urge to require that files be formatted in JSON. We have chosen to use command delimited files (CSV) format because it is easily created in tools as diverse as notepad and Excel on any operating system. It is also a file format which is well-known for less technically minded people. 
+Even though it is 2016 we're resisting the urge to require that files be formatted in JSON. We have chosen to use comma delimited files (CSV) format because it is easily created in tools as diverse as notepad and Excel on any operating system. It is also a file format which is well-known for less technically minded people. 
 
 Files must be encoded using UTF-8 without a BOM.
 
