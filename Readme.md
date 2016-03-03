@@ -1,4 +1,4 @@
-**The Completions Tool** is able to import in progress data from existing completions projects. This allows you to view overall progress of a large project which relies of numerous other completions tools or gain an overview of multiple projects. In order to do this we have described a common format for the various entities common to most completions tools. If you maintain a completions tool then we invite you to implement this standard or, better yet, contribute to it. We love open source formats. 
+**The Completions Tool** is able to import progress data from existing completions projects. This allows you to view overall progress of a large project which relies on numerous other completions tools or gain an overview of multiple projects. In order to do this we have described a common format for the various entities common to most completions tools. If you maintain a completions tool then we invite you to implement this standard or, better yet, contribute to it. We love open source formats. 
 
 #General Format Notes
 
