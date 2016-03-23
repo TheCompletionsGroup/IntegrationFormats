@@ -65,7 +65,7 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
   - SystemId: GUID
   - SubSystemId: GUID
   - ContractorResponsible: String
-  - CreationDate: GUID
+  - CreationDate: Date
   - ExpectedCompletionDate: Date
   - ActualCompletionDate: Date
   
