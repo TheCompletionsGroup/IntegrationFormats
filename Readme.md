@@ -35,7 +35,7 @@ All dates and times must be in UTC and must be formatted in accordance with [ISO
 Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_unique_identifier) and must remain consistent from load to load. Thus a tag with ID 21EC2020-3AEA-4069-A2DD-08002B30309D should always have that ID and any item imported with that ID will be assumed to be that tag. 
 
 ##Tags
- - CorrolationId: GUID
+ - Correlation Id: GUID
  - Tag Number: string
  - Description: string
  - CreationDate: date
@@ -43,22 +43,22 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
  - Discipline: string
 
 ##Systems
- - CorrolationId: GUID
+ - Correlation Id: GUID
  - Number: string
  - Name: string
 
 ##SubSystems
- - CorrolationId: GUID
+ - Correlation Id: GUID
  - Number: string
  - Name: string
 
 ##Tag Scopings
- - CorrolationId: GUID
+ - Correlation Id: GUID
  - TagId: GUID
  - SubSystemId: GUID
  
 ##Deficiencies
-  - CorrolationId: GUID
+  - Correlation Id: GUID
   - Name: string
   - Description: string
   - TagId: GUID
@@ -72,32 +72,32 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
   Only one of {TagId, SystemId, SubSystemId} needs to be filled out for a deficiency. Use an empty GUID 00000000-0000-0000-0000-000000000000 for fields which are not filled in. 
   
 ##Checksheets
-   - CorrolationId: GUID
+   - Correlation Id: GUID
    - Number: string
    - Name: string
    - Discipline: string
    - Phase: string
    
 ##Work Assignments
-   - CorrolationId: GUID
+   - Correlation Id: GUID
    - ChecksheetId: GUID
    - TagId: GUID
   
 ##Completed Work Assignments
-   - CorrolationId: GUID
+   - Correlation Id: GUID
    - CompletionDate: Date
    - EntryDate: Date
    - CompletingPerson: string
   
 ##Certificates
-   - CorrolationId: GUID
+   - Correlation Id: GUID
    - Number: string
    - Name: string
    - Discipline: string
    - Phase: string
   
 ##Completed Certificates
-   - CorrolationId: GUID
+   - Correlation Id: GUID
    - CompletionDate: Date
    - EntryDate: Date
    - CompletingPerson: string
