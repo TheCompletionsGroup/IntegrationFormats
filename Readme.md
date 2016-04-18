@@ -36,7 +36,7 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
 
 ##Tags
  - CorrelationId: GUID
- - Tag Number: string
+ - TagNumber: string
  - Description: string
  - CreationDate: date
  - UpdateDate: date
@@ -57,6 +57,8 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
  - TagId: GUID
  - SubSystemId: GUID
  
+The TagId and SubSystemId are the internal IDs which were given as corrolation IDs a opposed to IDs in the destination system.
+
 ##Deficiencies
   - CorrelationId: GUID
   - Name: string
