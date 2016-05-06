@@ -51,6 +51,7 @@ Note: GUIDs are Microsoft style [GUIDs](https://en.wikipedia.org/wiki/Globally_u
  - CorrelationId: GUID
  - Number: string
  - Name: string
+ - SystemId: GUID
 
 ##Tag Scopings
  - CorrelationId: GUID
