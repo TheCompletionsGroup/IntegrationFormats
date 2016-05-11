@@ -81,6 +81,8 @@ The TagId and SubSystemId are the internal IDs which were given as corrolation I
    - Discipline: string
    - Phase: string
    
+Phase is one of "A (Mechanical Completion)", "B (Pre-Commissioning)" and "C (Commissioning)"
+
 ##Work Assignments
    - CorrelationId: GUID
    - ChecksheetId: GUID
